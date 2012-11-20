@@ -7,10 +7,13 @@
 void startGame();
 void getCard();
 void playGame();
+char* cardName(int);
+bool canGan();
+bool lastCard();
 
 static int playerNum;
-static vector<int> cardHill;
+static std::vector<int> cardHill;
 static Player* playerList[4];
-static vector<int> ronList;
+static std::vector<int> ronList;
 
 #endif
